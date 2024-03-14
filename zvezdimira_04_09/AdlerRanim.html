@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"\>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Звезды Мира</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="air-slider/air-slider.min.css">
+        <script src="script.js"></script>
+
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.css" /> 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="page">
+            <header>
+                <div class="logo">
+                    <!-- <img src="7.png" width="200px" height="200px" class="logo__img"> -->
+                </div>
+
+                <div class="someText">
+                    <!-- <font>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, officiis adipisci porro possimus tempora magnam perferendis. Aut, ipsum ratione eius laboriosam quisquam explicabo impedit. Modi suscipit earum velit culpa magni!</font> -->
+
+                </div>
+
+                <div class="contacts">
+                    <h2 style="margin-left: 10px">Связаться с нами</h2>
+                    <a href="tel: +79914279003" target="_blank"><img src="tel.png" width="64px" height="64px" style="margin-right: 10px;"></a>
+                    <a href="https://t.me/+WqQ8zEMQGQYzYWVi" target="_blank"><img src="tg.png" width="64px" height="64px" style="margin-right: 10px;"></a>
+                    <a href="https://wa.me/+79235656193" target="_blank"><img src="ws.svg" width="64px" height="64px"></a>
+                </div>
+            </header>
+
+            <nav class="navBar" id="navBar__block">
+
+                <div class="navBar__line" onclick="navShow(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                
+                <a href="index.html" id="link__main">
+                    <div class="main__nav mrgn">
+                        Главная
+                    </div>
+                </a>
+
+                <a href="about.html" id="link__about">
+                    <div class="about__nav mrgn1">
+                        О нас
+                    </div>
+                </a>
+
+                <a href="gallery.html" id="link__gallery">
+                    <div class="gllry__nav mrgn2">
+                        Галерея
+                    </div>
+                </a>
+
+                <a href="contacts.html" id="link__contacts">
+                    <div class="contacts__nav mrgn3">
+                        Контакты
+                    </div>
+                </a>
+
+                <!-- <a href="kassy.html" id="link__kassy">
+                    <div class="cass__nav mrgn4">
+                        Кассы
+                    </div>
+                </a> -->
+            </nav>
+
+            <center>
+                <div class="description__main">
+                    
+                    <div class="description__div">
+                        <div class="description__name" style="font-family: Montserrat; color: white">ADLER & RANIM</div>
+                        <div class="description__img">
+                            <img src="img/div/KocbaRanim/Logo.jpeg" width="300px" height="400px" style="border-radius: 10px;" class="description__img__cart">
+                        </div>
+                        <div class="description__text" style="color: white; font-family: Roboto">
+                            <div class="calend__wrapper">
+                                <img src="calend.png" width="32px" height="32px" style="margin-right: 10px; vertical-align: middle;"> <font>29 октября 2023 г. 18:00</font> <br> <br>
+                            </div>
+
+                            <div class="metka__wrapper">
+                                <img src="metka.png" width="32px" height="32px" style="margin-right: 10px; vertical-align: middle;"> <a href="https://yandex.ru/maps/-/CDU-AFzG" target="_blank" style="color: white; text-decoration: underline;"><font>Фараон</font></a> <br> <br>
+                            </div>
+
+                            <div class="price__wrapper">
+                                <img src="price.png" width="32px" height="32px" style="margin-right: 10px; vertical-align: middle;"> <a href="https://iframeab-pre8480.intickets.ru/event/14009482/#abiframe" target="_blank" style="color: white; text-decoration: underline;"><font>1300-1600</font></a> <br> <br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="description__opis" style="font-family: Roboto">
+                        <h2 style="color: white">Описание</h2>
+                        <font color="white">
+                            Зажигательный концерт в Барнауле Адлер Коцба и Раним 🚀🚀🚀 <br> <br>
+
+                            Клуб Фараон <br> <br>
+                            
+                            Участвуйте в розыгрыше билетов и выигрывай личный звонок от Адлера (у тебя будет возможность поговорить со звездой по телефону 4 минуты и получить автограф после концерта) <br> <br>
+                        </font>
+                    </div>
+                    
+                </div>
+
+                
+                <a href="https://iframeab-pre8480.intickets.ru/event/14009482/#abiframe">
+                    <button class="buyButton" role="button"><span class="text">Купить билет</span></button>
+                </a>
+
+                <h2 style="color: white; font-family: Roboto; margin-top: 50px;">ГАЛЕРЕЯ</h2> <br> <br>
+
+                <section class="description__gallery">
+
+                    <p>
+                        <a href="img/div/KocbaRanim/Adler_Kocba_Ranim.jpg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/Adler_Kocba_Ranim.jpg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <video width="400" height="400" controls="controls">
+                            <source src="img/div/KocbaRanim/IMG_7811.mp4" class="gallery__img">
+                        </video>
+                    </p>
+
+                    <p>
+                        <video width="400" height="400" controls="controls">
+                            <source src="img/div/KocbaRanim/IMG_7813.mov" class="gallery__img">
+                        </video>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/1.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/1.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/2.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/2.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/3.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/3.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/5.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/5.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/6.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/6.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/7.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/7.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/8.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/8.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/9.jpeg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/9.jpeg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                    <p>
+                        <a href="img/div/KocbaRanim/10.jpg" data-fancybox="images">
+                            <img src="img/div/KocbaRanim/10.jpg" width="400px" height="400px" class="gallery__img">
+                        </a>
+                    </p>
+
+                </section>
+
+                
+            </center>
+            
+
+            <div class="footer">
+                <p class="rights">Все права защищены</p>
+                <div class="footer__contacts">
+                    
+                    <div class="imgs__container">
+                        <a href="tel: +79914279003" target="_blank"><img src="tel.png" width="32px" height="32px" class="img__cont" style="margin-left: 10px; margin-right: 10px;"></a>
+                        <a href="https://t.me/+WqQ8zEMQGQYzYWVi" target="_blank"><img src="tg.png" width="32px" height="32px" class="img__cont" style="margin-left: 10px; margin-right: 10px;"></a>
+                        <a href="https://wa.me/+79235656193" target="_blank"><img src="ws.svg" width="32px" height="32px" class="img__cont img__cont__center"></a>
+                    </div>
+                </div>
+                <p class="corp">Звезды Мира (с) 2023</p>
+            </div>
+        </div>
+    </body>
+</html>
